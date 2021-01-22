@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    width: 100vw;
+
+    padding: 0px 10vw 0px 10vw;
+    overflow-x: hidden;
+    background-color: black;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    font-family: "source code pro";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 25px;
+    transition-duration: 0.5s; }
+a:hover {
+    color: lightsteelblue;
+    transition-duration: 0.5s; }
+
+a.link_color {
+    z-index: 2;
+    color: white;
+    transition: color 0.5s;
+    line-height: 26px; }
+a.link_color:hover {
+    color: lightsteelblue;
+    transition: color 0.5s; }
+
+h1 {
+    font-family: 'lato';
+    color: lightsteelblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+    font-family: 'raleway';
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+    font-family: 'raleway';
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+    color: lightsteelblue;
 }
