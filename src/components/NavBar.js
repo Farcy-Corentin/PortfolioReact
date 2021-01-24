@@ -31,17 +31,17 @@ function NavBar () {
                     <NavLink to="/">
                         Home
                     </NavLink>
-                    <NavLink to="/about">
-                        About
-                    </NavLink>
-                    <NavLink to="/works">
+                    <NavLink to="works">
                         Works
                     </NavLink>
-                    <NavLink to="/skills">
+                    <NavLink to="skills">
                         Skills
                     </NavLink>
                     <a href='https://github.com/Farcy-Corentin'>
                         github
+                    </a>
+                    <a href='https://www.linkedin.com/in/corentin-farcy-0a1a01201/'>
+                        linkedin
                     </a>
                 </NavMenu>
             </Nav>
