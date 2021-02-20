@@ -1,56 +1,25 @@
-
-
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
-
+html {
+    font-size: 62.5%;
+}
 body {
-    width: 100vw;
-
-    padding: 0px 10vw 0px 10vw;
-    overflow-x: hidden;
-    background-color: black;
 
 }
-
-a {
-    font-family: "source code pro";
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 2px;
-    font-size: 12px;
-    line-height: 16px;
-    margin-left: 25px;
-    transition-duration: 0.5s; }
-a:hover {
-    color: lightsteelblue;
-    transition-duration: 0.5s; }
-
 
 h1 {
-    font-family: 'lato';
-    color: lightsteelblue;
-}
-
-h2 {
-    font-family: 'raleway';
-    color: white;
+    font-family: 'Lobster', cursive;
+    color: #333333;
 }
 
 p {
-    font-family: 'raleway';
-    color: white;
-    font-size: 1rem;
+    font-family: 'Anton', sans-serif;
+    color: #a79797;
 }
 
-span {
-    color: lightsteelblue;
+h2 {
+    font-family: 'Lobster', cursive;
 }
 
-b {
-    color: lightsteelblue;
-    font-family: lato;
-    font-size: 1rem;
-}
