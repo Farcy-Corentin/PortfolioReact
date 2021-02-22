@@ -6,6 +6,7 @@ import { FaDiscord } from 'react-icons/fa';
 function Footer() {
 
     const Footer = styled.div`
+    margin-top: 5vh;
     font-size: 3em;
     display: flex;
     flex-direction: row;
@@ -43,7 +44,7 @@ function Footer() {
             <SocialLink href='#'>
                 <ImLinkedin />
             </SocialLink>
-            <SocialLink>
+            <SocialLink href='#'>
                 <FaDiscord />
             </SocialLink>
         </Footer>

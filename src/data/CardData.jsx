@@ -1,4 +1,5 @@
 import Jarditou from "../assets/images/Jarditou.jpg"
+import ClosMesnil from "../assets/images/LeClosMesnil.JPG"
 
 export const CardsData = [
     {
@@ -7,6 +8,8 @@ export const CardsData = [
         'date': '20.02.2021',
         'status': 'Work in progress',
         'statusColor': 'orange',
+        'technologies': "html, css, php",
+        'framework': "bootstrap, codeigniter",
         'url': Jarditou,
     },
     {
@@ -15,6 +18,7 @@ export const CardsData = [
         'date': '20.02.2021',
         'status': 'Work in progress',
         'statusColor': 'orange',
+        'url': ClosMesnil
 
     }
 ]

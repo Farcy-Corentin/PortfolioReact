@@ -30,49 +30,48 @@ function cards() {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    margin: 15px 15px 0 0;
-    width: 350px;
-    height: 400px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 60vh;
     color: black;
-    ${backgroundImage};
+    cursor: pointer;
+    
     background-repeat: no-repeat;
     background-size: cover;
-    :hover {
     background-color: #fac76c;
     background-image: none;
+    :hover {
+    ${backgroundImage};
     }
 `
     const H1 = styled.h1`
-    color: black;
-    font-size: 4em;
+    color: #333333;
+    font-size: 3em;
     margin-bottom: 10px;
 `
 
-    const Separator = styled.hr`
-    width: 70px;
-    height: 4px;
-    background-color: red;
-    border: none;
-    margin-left: 260px;
-    margin-bottom: 15px;
-`
-
     const DescriptionCards = styled.p`
-    color: white;
-    font-size: 2em;
+    color: #a79797;
+    font-size: 1.5em;
 `
 
     const StatusProject = styled.p`
     ${StatusColor};
-    font-size: 1.6em;    
+    font-size: 1.2em;    
 `
 
     const Date = styled.div`
     color: white;
-    font-size: 1.8em;
+    font-size: 1em;
 `
 
-    const cardElement = cardsData.map(({ name, title, description, status, date, url, statusColor }, i) => (
+    const Technologies = styled.div`
+
+`
+    const Framework = styled.div`
+
+`
+    const cardElement = cardsData.map(({ name, title, description, status, date, url, statusColor, technologies, framework }, i) => (
         console.log(url),
         <Cards url={url}>
             <div>
@@ -80,7 +79,6 @@ function cards() {
                     {name}
                 </H1>
             </div>
-            <Separator />
             <div>
                 <h3>
                     {title}
@@ -88,6 +86,18 @@ function cards() {
                 <DescriptionCards>
                     {description}
                 </DescriptionCards>
+                <Technologies>
+                    <h4>
+                        Technologies
+                    </h4>
+                    {technologies}
+                </Technologies>
+                <Framework>
+                    <h4>
+                        Framework
+                    </h4>
+                    {framework}
+                </Framework>
                 <StatusProject color={statusColor}>
                     {status}
                 </StatusProject>
