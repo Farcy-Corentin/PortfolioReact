@@ -41,10 +41,10 @@ function Footer() {
             <SocialLink href="https://github.com/Farcy-Corentin">
                 <ImGithub />
             </SocialLink>
-            <SocialLink href='#'>
+            <SocialLink href='https://www.linkedin.com/in/corentin-farcy-0a1a01201/'>
                 <ImLinkedin />
             </SocialLink>
-            <SocialLink href='#'>
+            <SocialLink href='https://discord.com/users/742631499312005130'>
                 <FaDiscord />
             </SocialLink>
         </Footer>

@@ -18,6 +18,8 @@ export const CardsData = [
         'date': '20.02.2021',
         'status': 'Work in progress',
         'statusColor': 'orange',
+        'technologies': "html, css, php",
+        'framework': "react, symfony",
         'url': ClosMesnil
 
     }
