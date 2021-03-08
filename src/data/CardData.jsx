@@ -1,5 +1,5 @@
 import Jarditou from "../assets/images/Jarditou.jpg"
-import ClosMesnil from "../assets/images/LeClosMesnil.JPG"
+
 
 export const CardsData = [
     {
@@ -20,7 +20,7 @@ export const CardsData = [
         'statusColor': 'orange',
         'technologies': "html, css, php",
         'framework': "react, symfony",
-        'url': ClosMesnil
+        'url': Jarditou
 
     }
 ]
